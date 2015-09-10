@@ -78,5 +78,3 @@ Check current branch
 
 $ git branch
 
-
-TESTE
