@@ -1,9 +1,22 @@
 Setup Git
+
 $ git config --global user.name "<name>"
 $ git config --global user.email "<email>"
-
 
 Initialize git repo
 $ git init
 
+Project status
 
+$ git status
+
+Add file to stage
+
+$ git add <filename>
+
+Commit file
+
+$ git commit
+	
+	options
+	 [-m] "message" // add message to commit
