@@ -36,5 +36,34 @@ $ git log
 Create alias
 $ git config --global alias.lg 'log --graph --oneline --decorate --all'
 
-TESTE
-TESTE2
+See differences
+
+$ git diff            // diff between untracked and commit
+
+	options
+	--staged   // diff between stage and commit
+
+
+Reset local changes
+
+$ git cheackout	-- <filename>   // reset local changes in file
+
+Reset the stage
+
+$ git reset HEAD
+
+	options
+	<filename>    // unstage file
+
+Remove commit
+
+$ git reset <commitID>
+
+	options
+	--hard     // remove changes
+
+Amend last commit
+
+$ git commit --amend    
+
+
