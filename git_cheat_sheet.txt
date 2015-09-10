@@ -66,4 +66,16 @@ Amend last commit
 
 $ git commit --amend    
 
+TESTE2
 
+Creating branch
+
+$ git branch <branch name>
+
+Change to branch
+
+$ git checkout <branchname>
+
+Check current branch
+
+$ git branch
