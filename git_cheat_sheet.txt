@@ -83,3 +83,13 @@ Merge branches
 $ git merge <branchname>
 
 $ git mergetool
+
+Add remote
+
+$ git remote add origin <url>
+
+Push to remote
+
+$ git push -u origin master
+
+
