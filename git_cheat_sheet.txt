@@ -66,3 +66,4 @@ Amend last commit
 
 $ git commit --amend    
 
+inserted in master
