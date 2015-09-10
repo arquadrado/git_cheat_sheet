@@ -78,4 +78,8 @@ Check current branch
 
 $ git branch
 
-stuff on feature1
+Merge branches
+
+$ git merge <branchname>
+
+$ git mergetool
