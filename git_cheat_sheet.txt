@@ -66,8 +66,6 @@ Amend last commit
 
 $ git commit --amend    
 
-TESTE2
-
 Creating branch
 
 $ git branch <branch name>
