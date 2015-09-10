@@ -19,4 +19,20 @@ Commit file
 $ git commit
 	
 	options
-	 [-m] "message" // add message to commit
+	-m "message" // add message to commit
+	-a           // add files to stage
+
+
+Check repo history
+$ git log
+
+	option
+	--graph     // branch graph
+	--oneline   // show in one line
+	-p          // chnages
+	-1          // number of commits
+	--decorate 
+
+Create alias
+$ git config --global alias.lg 'log --graph --oneline --decorate --all'
+
