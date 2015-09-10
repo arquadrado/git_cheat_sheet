@@ -66,6 +66,3 @@ Amend last commit
 
 $ git commit --amend    
 
-TESTE1
-
-teste master
